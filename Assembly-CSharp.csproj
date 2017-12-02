@@ -62,6 +62,7 @@
      <Compile Include="Assets\Downloads\UGuiKit\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Downloads\UGuiKit\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Downloads\UGuiKit\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\CubeManager.cs" />
      <None Include="Assets\Downloads\UGuiKit\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Downloads\UGuiKit\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Downloads\UGuiKit\Materials\UI-Default-No-Alpha.shader" />
