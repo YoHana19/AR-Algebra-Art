@@ -6,16 +6,14 @@ public class CubeManager : MonoBehaviour {
 
 	private float currentSize = 0.0f;
 	public float maxSize;
-	private float currentPosition = 0.0f;
-	private float mediatedPosition;
+	private float currentPosition;
+	private float mediatedPosition = -0.5f;
 	private float finalPositon;
 
 	// Use this for initialization
 	void Start () {
-		mediatedPosition = -0.5f;
-		currentPosition += mediatedPosition;
-		this.transform.position = new Vector3 (currentPosition, this.transform.position.y, this.transform.position.z);
-		finalPositon = maxSize / 2 + mediatedPosition;
+		currentPosition = this.transform.position.x + mediatedPosition;
+		finalPositon = maxSize / 2 + currentPosition;
 		this.transform.localScale = new Vector3(currentSize, 1, 1);
 	}
 	
